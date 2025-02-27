@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Header section */
+#header{
+    padding: 10px 80px;
+    width: 100%;
+    position: fixed;  
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    top: 0;
+    z-index: 2;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+} 
+
+.navbar-brand {
+    color: white !important;
+}
+
+/* Hero section */
+#hero{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20%;
+    color: #FFbb00;
+}
+#hero-back{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/hero-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* service-section */
+#services{
+    text-align: center;
+    margin: 10% auto;
+}
+#services h2{
+    margin-bottom:6%;
+}
+.service-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+/* Contact-section */
+#contact {
+    position: relative;
+    padding: 30px 0;
+    color: rgb(54, 54, 54);
+}
+
+#contact-bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.contact-form{
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    padding: 2% 4%;
+    margin: 10% auto; 
+}
+
+/* Footer-section */
+footer{
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+.footer-icons{
+    margin-bottom: 2%;
+}
+
+.footer-icons a{
+    padding: 0 10px;
+}
+
+/* Animation */
+.service-img, .slide-left, .slide-right {
+    opacity: 0;
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.slide-left {
+    transform: translateX(-100px);
+}
+
+.slide-right {
+    transform: translateX(100px);
+}
+
+.show .slide-left {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.show .slide-right {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@media (max-width: 990px) { 
+    #hero {
+        height: 40vh; /* Allow content to dictate height */
+        padding-top: 50% 0; /* Reduce padding */
+    }
+}
+
+@media (max-width: 540px) { 
+    #hero {
+        height: 60vh; /* Reduce height further for small phones */
+        padding-top: 50%;
+    }
+    #header{
+        padding: 10px ;
+    }
+}
+
