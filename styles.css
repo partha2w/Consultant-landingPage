@@ -96,11 +96,11 @@ footer{
 }
 
 .slide-left {
-    transform: translateX(-60px);
+    transform: translateX(-40px);
 }
 
 .slide-right {
-    transform: translateX(60px);
+    transform: translateX(40px);
 }
 
 .show .slide-left {
