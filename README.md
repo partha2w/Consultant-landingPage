@@ -14,7 +14,13 @@ A modern, responsive, and animated **Consulting Landing Page** built with **HTML
 ---
 
 ## 📂 Project Structure  
-/consulting-landing-page │── index.html # Main HTML file │── styles.css # Custom styles (Bootstrap included) │── script.js # JavaScript animations │── image/,videos/ # Images, videos, icons │── README.md # Project documentation
+/consulting-landing-page 
+│── index.html # Main HTML file 
+│── styles.css # Custom styles (Bootstrap included) 
+│── script.js # JavaScript animations 
+│── image/ # Images 
+│── videos/ # Video 
+│── README.md # Project documentation
 
 
 ## 📌 Sections Included  
