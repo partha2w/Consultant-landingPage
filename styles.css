@@ -28,7 +28,7 @@ body{
     color: #FFbb00;
 }
 #hero-back{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/hero-background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./image/hero-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
