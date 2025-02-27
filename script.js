@@ -71,4 +71,3 @@ document.addEventListener("DOMContentLoaded", function () {
     handleScroll(); // Run once on load
 });
 
-
