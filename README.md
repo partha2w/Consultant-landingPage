@@ -22,7 +22,6 @@ A modern, responsive, and animated **Consulting Landing Page** built with **HTML
 │── videos/ # Video 
 │── README.md # Project documentation
 
-
 ## 📌 Sections Included  
 
 ### 1️⃣ **Header Section**  
